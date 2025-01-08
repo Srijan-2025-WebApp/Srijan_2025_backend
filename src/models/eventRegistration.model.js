@@ -34,6 +34,7 @@ const EventTeamListSchema = new mongoose.Schema({
       TeamName: {
         type: String,
         default: null,
+        required: true
       },
       IsSponsor: {
         type: Boolean,
